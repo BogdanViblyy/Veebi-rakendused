@@ -1,0 +1,59 @@
+header{
+	color: Maroon; /*teksti värv*/
+	background-color: BlanchedAlmond; /*tausta värv*/
+	width: 50%; /*laius*/
+	text-align: center;
+	border: solid 1pt red; /*piir - dashed, dotted, double*/
+	border-radius: 10px 10px 0px 0px;
+	padding: 1%; 
+}
+footer{
+	color: Maroon; /*teksti värv*/
+	background-color: BlanchedAlmond; /*tausta värv*/
+	width: 50%; /*laius*/
+	text-align: center;
+	border: solid 1pt red; /*piir - dashed, dotted, double*/
+	border-radius: 10px 10px;
+	padding: 1%; 
+}
+main section {
+	color: Maroon; /*teksti värv*/
+	width: 50%; /*laius*/
+	text-align: center;
+	padding: 1%; 
+}
+main section h2{
+	color: red;
+	font-variant: normal;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /*kuidas näidata nav elemendid*/
+  background-color: BlanchedAlmond;
+  width: 50%; /*laius*/
+  text-align: center;
+  border: solid 1pt red; /*piir - dashed, dotted, double*/
+  border-radius: 0px 0px 10px 10px;
+  padding: 1%; 
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block; /*ühe realine*/
+  color: Maroon;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+}
+
+nav li a:hover {
+  background-color: red;
+  border: solid 1pt red; /*piir - dashed, dotted, double*/
+  border-radius: 10px 10px;
+  
+}
